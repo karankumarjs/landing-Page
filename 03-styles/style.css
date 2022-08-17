@@ -1,0 +1,137 @@
+:root {
+	--font-primary: "Gilroy Medium", "San Francisco", "SF Pro Text", -apple-system,
+		system-ui, sans-serif;
+	--color-level-1: #ffffff;
+	--color-level-2: #75f1b1;
+	--color-level-3: #255757;
+	--color-level-4: #073e3e;
+
+	--color-level-5: #002e2e;
+	--fz-xxs: 12px;
+	--fz-xs: 13px;
+	--fz-sm: 14px;
+	--fz-md: 16px;
+	--fz-lg: 18px;
+	--fz-xl: 20px;
+	--fz-xxl: 22px;
+	--fz-heading: 2vw;
+	--border-radius: 6px;
+	--ln: 1.5;
+}
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	color: var(--color-level-1);
+	transition: 0.5s;
+	line-height: var(--ln);
+	border-radius: var(--border-radius);
+}
+body {
+	background-color: var(--color-level-5);
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	font-family: var(--font-primary);
+}
+nav {
+	background-color: var(--color-level-4);
+	width: 25vw;
+	height: 100vh;
+	border-right: 2px var(--color-level-2) solid;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 14vh;
+}
+nav header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-header-img {
+	width: 150px;
+	height: 150px;
+	background-image: url("/02-assets/img/profile-img.png");
+	content: " ";
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+nav header img {
+	width: auto;
+	height: 30%;
+	margin: 2vh 0vh;
+}
+.container {
+	flex-grow: 6;
+}
+.nav-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+.nav-body .heading {
+	font-size: var(--fz-heading);
+}
+.nav-body .sub-heading {
+	font-size: var(--fz-lg);
+}
+.social-btn {
+	width: 50px;
+	height: 50px;
+	/* padding: 10px; */
+	background-color: var(--color-level-3);
+	margin: 30px 0px;
+	border-radius: 50px;
+	cursor: pointer;
+	border-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-btn img {
+	width: 30px;
+	height: 30px;
+}
+.social-btn:hover {
+	color: var(--color-level-4);
+	background: var(--color-level-2);
+}
+.nav-footer {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20%;
+}
+.explore-btn {
+	padding: 10px;
+	background-color: var(--color-level-3);
+	margin: 30px 0px;
+	border: 2px var(--color-level-2) solid;
+	cursor: pointer;
+}
+.explore-btn:hover {
+	color: var(--color-level-4);
+	background: var(--color-level-2);
+}
+.container{
+}
+section{
+    height: auto;
+    background-color: var(--color-level-4);
+    border:2px var(--color-level-3) solid;
+    margin: 30px;
+    padding: 20px;
+}
+.section-heading{
+    font-size: var(--fz-xl);
+    color: var(--color-level-2);
+}
+.section-items{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.item{
+    width:;
+}
