@@ -17,6 +17,7 @@
 	--fz-heading: 2vw;
 	--border-radius: 10px;
 	--ln: 1.5;
+	-webkit-tap-highlight-color: transparent;
 }
 
 * {
