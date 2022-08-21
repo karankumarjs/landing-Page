@@ -70,7 +70,7 @@ nav header {
 .nav-header-img {
 	width: 10vw;
 	height: 10vw;
-	background-image: url("/02-assets/img/profile-img.png");
+	background-image: url("./02-assets/img/profile-img.png");
 	content: " ";
 	background-repeat: no-repeat;
 	background-size: contain;
