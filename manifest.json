@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Web Metrics Overlay",
+    "name": "Pagepulse: Web Metrics",
     "version": "1.0",
-    "description": "Display loading time and other metrics on a webpage.",
+    "description": "Display loading time and other metrics realtime.",
     "permissions": ["activeTab"],
     "background": {
       "service_worker": "background.js"
